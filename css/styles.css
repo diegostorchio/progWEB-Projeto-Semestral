@@ -32,7 +32,7 @@
 
 .div-menu-options-option {
     width: 120px;
-    height: 70px;
+    height: 68px;
     float: left;
     background-color: rgb(63, 55, 31);
     color: black;
@@ -81,6 +81,8 @@
     height: 30px;
     border-radius: 5px;
     margin-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
 }
 
 .div-menu-utils-icon img {
@@ -128,10 +130,10 @@
     border-color: white;
     position: absolute;
     top: 450px;
-    margin-left: 670px;
+    margin-left: 680px;
     color: white;
     text-align: center;
-    vertical-align: middle;
+    padding-top: 15px;
 }
 
 .div-menu-wallpaper-button:hover {
@@ -173,6 +175,8 @@
     background-color: rgb(180, 180, 180);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .div-produtos-list-item img {
@@ -194,7 +198,7 @@
 .div-produtos-list-item-preco {
     width: 250px;
     height: 30px;
-    margin-top: 5px;
+    margin-top: 15px;
     background-color: rgb(3, 190, 3);
     color: white;
     font-size: medium;
@@ -218,6 +222,7 @@
     border-color: rgb(3, 190, 3);
     color: rgb(3, 190, 3);
     margin-top: 80px;
+    padding-top: 15px;
 }
 
 .div-produtos-mais-op:hover {
