@@ -9,7 +9,7 @@
 .div-menu {
     width: 100%;
     height: 70px;
-    background-color: rgb(97, 78, 24);
+    background-color: rgb(63, 55, 31);
     border: solid 1px;
     border-color: white;
     border-radius: 3px;
@@ -34,7 +34,7 @@
     width: 120px;
     height: 70px;
     float: left;
-    background-color: rgb(97, 78, 24);
+    background-color: rgb(63, 55, 31);
     color: black;
     font-size: large;
     border-left: solid 1px;
@@ -119,10 +119,8 @@
 
 .div-menu-wallpaper-button {
     width: 10%;
-    height: 50px;
-    margin: 0 auto;
+    height: auto;
     background-color: rgb(0, 177, 0);
-    text-align: center;
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: solid 1px;
@@ -132,6 +130,8 @@
     top: 450px;
     margin-left: 670px;
     color: white;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .div-menu-wallpaper-button:hover {
@@ -207,7 +207,7 @@
 
 .div-produtos-mais-op {
     width: 10%;
-    height: 50px;
+    height: auto;
     margin: 0 auto;
     background-color: white;
     text-align: center;
@@ -250,4 +250,104 @@
     border: solid 5px;
     border-radius: 5px;
     border-color: rgb(48, 35, 0);
+}
+
+.div-depoimentos {
+    width: 700px;
+    height: 200px;
+    margin: 100px auto;
+}
+
+.div-depoimentos-card {
+    width: 600px;
+    height: 200px;
+    color: rgb(48, 35, 0);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.div-depoimentos-card-button-back img {
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    float: left;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.div-depoimentos-card-button-next img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 60px;
+}
+
+.div-depoimentos-card-button-back:hover {
+    cursor: pointer;
+}
+
+.div-depoimentos-card-button-next:hover {
+    cursor: pointer;
+}
+
+.div-contact {
+    width: 100%;
+    height: 40%;
+}
+
+.div-contact-card {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 100px;
+}
+
+.div-contact-card-title {
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.div-contact-card-content {
+    margin-top: 30px;
+    color: rgb(112, 112, 112);
+    text-align: center;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-footer {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(63, 55, 31);
+    margin-top: 50px;
+}
+
+.div-footer-icons {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.div-footer-icons-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.div-footer-icons-img img {
+    width: 30px;
+    height: 30px;
+}
+
+.div-footer-icons-img img:hover {
+    cursor: pointer;
 }
