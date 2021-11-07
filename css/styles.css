@@ -332,13 +332,13 @@
     width: 100%;
     height: 20%;
     background-color: rgb(63, 55, 31);
-    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 .div-footer-icons {
     width: 500px;
     height: 50px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .div-footer-icons-img {
@@ -439,4 +439,62 @@
     width: 90%;
     height: 50px;
     margin: 0 auto;
+}
+
+.div-produtos-root {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.div-produtos-list-produto {
+    width: 250px;
+    height: 310px;
+    margin: 15px auto;
+    float: left;
+    margin-left: 40px;
+    background-color: rgb(180, 180, 180);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.div-produtos-list-produto img {
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.div-produtos-list-produto-preco {
+    width: auto;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rgb(32, 156, 32);
+    color: whitesmoke;
+    font-size: medium;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.div-produtos-list-produto-comprar {
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(0, 226, 19);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.div-produtos-list-produto-comprar:hover {
+    cursor: pointer;
+    background-color: rgb(0, 255, 21);
+    color: black;
 }
