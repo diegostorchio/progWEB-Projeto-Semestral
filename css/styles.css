@@ -23,6 +23,10 @@
     float: left;
 }
 
+.div-logo:hover {
+    cursor: pointer;
+}
+
 .div-menu-options {
     width: 610px;
     height: 70px;
@@ -496,10 +500,9 @@
 .div-produtos-list-produto-comprar:hover {
     cursor: pointer;
     background-color: rgb(0, 255, 21);
-    color: black;
 }
 
-.div-cart-root {
+.div-cart-card-root {
     width: 70%;
     height: 150px;
     border-top: solid 1px;
@@ -567,4 +570,75 @@
     color: rgb(4, 196, 4);
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.div-cart-buttons {
+    width: 300px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    float: left;
+}
+
+.div-cart-button-finalize {
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: rgb(34, 202, 0);
+    color: white;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgb(34, 202, 0);
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.div-cart-button-finalize:hover {
+    background-color: rgb(60, 255, 0);
+    cursor: pointer;
+}
+
+.div-cart-button-continue {
+    width: 140px;
+    height: 50px;
+    float: left;
+    color: rgb(34, 202, 0);
+    border-color: rgb(34, 202, 0);
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.div-cart-button-continue:hover {
+    cursor: pointer;
+    background-color: rgb(3, 190, 3);
+    color: white;
+}
+
+.div-button-cart {
+    width: 250px;
+    height: 50px;
+    color: rgb(34, 202, 0);
+    border-color: rgb(34, 202, 0);
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+    margin-left: 41.3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.div-button-cart:hover {
+    cursor: pointer;
+    background-color: rgb(3, 190, 3);
+    color: white;
 }

@@ -1,5 +1,5 @@
 window.onload = function() {
-    fillDepoCard(0)
+    fillDepoCard(0);
 }
 
 var index = 0
